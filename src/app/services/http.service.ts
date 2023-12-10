@@ -30,10 +30,10 @@ export class HttpService {
   getGameDetails(id: string): Observable<Game> {
     const gameInfoRequest = this.http.get(`https://api.rawg.io/api/games/${id}`);
     const gameTrailersRequest = this.http.get(
-      `https://api.rawg.io/api/games/${id}/movies?key=7121baaa231343ceb275e9d53411c4d5`
+      `https://api.rawg.io/api/games/${id}/movies?key=<YOUR_KEY>`
     );
     const gameScreenshotsRequest = this.http.get(
-      `https://api.rawg.io/api/games/${id}/screenshots?key=7121baaa231343ceb275e9d53411c4d5`
+      `https://api.rawg.io/api/games/${id}/screenshots?key=<YOUR_KEY>`
     );
 
     return forkJoin({
