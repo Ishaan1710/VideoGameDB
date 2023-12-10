@@ -4,7 +4,7 @@ Create account in the RAWG platform and obtain your key and other details, inser
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
-##Note 
+## Note 
 While running on local host, you might encounter CORS error indirectly due to the API, use 'Allow CORS' plugin in the browser to bypass the issue.
 
 ## Development server
