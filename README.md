@@ -1,6 +1,11 @@
 # VideoGameDB
+Presents you with 500k+ games to search about with particular details and ratings along with screenshots and trailers.
+Create account in the RAWG platform and obtain your key and other details, insert the details in the service files specified and you are good to go.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+
+##Note 
+While running on local host, you might encounter CORS error indirectly due to the API, use 'Allow CORS' plugin in the browser to bypass the issue.
 
 ## Development server
 
